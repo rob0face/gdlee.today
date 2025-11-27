@@ -1,12 +1,20 @@
+/* Angular */
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+/* Service */
+import { Screen } from './app.screen';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    /* Angular */ RouterOutlet, RouterLink, RouterLinkActive,
+  ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('gdleetoday');
+  constructor(
+    /* Service */ public screen: Screen,
+  ) {}
+
 }
