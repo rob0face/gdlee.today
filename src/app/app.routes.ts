@@ -5,6 +5,8 @@ import { Contact } from './page/contact/contact';
 import { Notfound } from './page/notfound/notfound';
 import { Social } from './page/social/social';
 import { Life } from './page/life/life';
+import { Design } from './page/design/design';
+import { Writing } from './page/writing/writing';
 
 export const routes: Routes = [
     { path: '', component: Home, title: 'Home [●_○]' },
@@ -12,6 +14,8 @@ export const routes: Routes = [
     { path: 'contact', component: Contact, title: 'Contact [●_○]' },
     { path: 'social', component: Social, title: 'Social [●_○]' },
     { path: 'life', component: Life, title: 'Life [●_○]' },
+    { path: 'design', component: Design, title: 'Design [●_○]' },
+    { path: 'writing', component: Writing, title: 'Writing [●_○]' },
     // More pages can be added here, 404 must be the last
     { path: '**', component: Notfound, title: '404 [●_○]' }
 ];

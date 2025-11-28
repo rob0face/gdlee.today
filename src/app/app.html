@@ -4,6 +4,9 @@
     <div class="navbar">
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">[홈]</a>
       <a routerLink="/contact" routerLinkActive="active">[연락처]</a>
+      <a routerLink="/life" routerLinkActive="active">[근황]</a>
+      <a routerLink="/design" routerLinkActive="active">[디자인]</a>
+      <a routerLink="/writing" routerLinkActive="active">[글 모음]</a>
     </div>
   } @else {
     <div class="navbar-icons">
@@ -12,6 +15,15 @@
       </a>
       <a routerLink="/contact" routerLinkActive="active">
         <span class="material-symbols-outlined">contact_mail</span>
+      </a>
+      <a routerLink="/life" routerLinkActive="active">
+        <span class="material-symbols-outlined">event_note</span>
+      </a>
+      <a routerLink="/design" routerLinkActive="active">
+        <span class="material-symbols-outlined">palette</span>
+      </a>
+      <a routerLink="/writing" routerLinkActive="active">
+        <span class="material-symbols-outlined">menu_book</span>
       </a>
     </div>
   }
