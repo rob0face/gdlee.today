@@ -3,16 +3,12 @@
   @if (screen.currentScreenSize() != "xs") {
     <div class="navbar">
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">[홈]</a>
-      <a routerLink="/company" routerLinkActive="active">[회사소개]</a>
-      <a routerLink="/contact" routerLinkActive="active">[주소와 연락처]</a>
+      <a routerLink="/contact" routerLinkActive="active">[연락처]</a>
     </div>
   } @else {
     <div class="navbar-icons">
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <span class="material-symbols-outlined">home</span>
-      </a>
-      <a routerLink="/company" routerLinkActive="active">
-        <span class="material-symbols-outlined">apartment</span>
       </a>
       <a routerLink="/contact" routerLinkActive="active">
         <span class="material-symbols-outlined">contact_mail</span>

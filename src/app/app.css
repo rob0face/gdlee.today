@@ -20,17 +20,18 @@ header .title:hover {
     text-decoration: underline;
     text-underline-offset: 8px;
     text-decoration-color: #407240;
+    /* This is indeed invisible! Underline color matches its background! But I'm going to add some cool animation here. */
 }
 header .navbar a {
     margin: 0 1px;
-    padding: 15px 10px;
+    padding: 5px 10px;
     text-decoration: none;
     font: 300 1.75rem "Dongle", sans-serif;
     color: white;
 }
 header .navbar-icons a {
     margin: 0 1px;
-    padding: 15px 10px;
+    padding: 13px 10px;
     text-decoration: none;
     font: 200 1.75rem "Dongle", sans-serif;
     color: white;

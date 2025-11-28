@@ -1,11 +1,14 @@
 /* Angular */
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 /* Service */
 import { Screen } from '../../app.screen';
 
 @Component({
   selector: 'app-contact',
-  imports: [],
+  imports: [
+    /* Angular */ RouterLink,
+  ],
   templateUrl: './contact.html',
   styleUrl: './contact.css',
 })

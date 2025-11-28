@@ -43,23 +43,30 @@
 }
 
 /*
- *  HEADING SIZES
+ *  DEFALUT TEXT STYLES
+ *  Note: Almost every pages override text styles, especially for margin and color.
  */
 h1 {
   font-size: 3rem;
   line-height: 1;
+  color: #99ff99;
 }
 h2 {
   font-size: 2rem;
   line-height: 1;
+  color: #99ff99;
 }
 h3 {
   font-size: 1.25rem;
   line-height: 1;
+  color: #99ff99;
+}
+p {
+  color: #ffffff;
 }
 a {
   font: 500 1rem "IBM Plex Sans KR", sans-serif;
-  color: #407240;
+  color: #ff99ff;
   text-decoration: underline;
   text-underline-offset: 4px;
   line-height: 1;
@@ -68,10 +75,45 @@ a:hover {
   font-weight: 700;
   cursor: pointer;
 }
+.unavailable-green-text {
+    color: #203620;
+}
 
 /*
- *  GRADIENTS
+ *  BACKGROUND
  */
-.gradient-green {
-  background: linear-gradient(to right, #407240, #99ff99);
+body {
+  background: url("/background_rob0facePatternGreen.jpg") repeat center center;
+  background-attachment: fixed;
+}
+@media (min-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}
+
+/*
+ *  GENERIC PARAGRAPH BOX
+ */
+.paragraph-box {
+  background-color: rgba(0, 0, 0, 0.66);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.paragraph-box.fit-content {
+  width: fit-content;
+  padding: 20px 60px;
+  margin: 0 auto;
+}
+.paragraph-box.purple {
+  border-top: #724072 8px double;
+}
+.paragraph-box.purple h1, .paragraph-box.purple h2, .paragraph-box.purple h3 {
+  color: #ff99ff;
+}
+.paragraph-box.green {
+  border-top: #407240 8px double;
+}
+.paragraph-box.green h1, .paragraph-box.green h2, .paragraph-box.green h3 {
+  color: #99ff99;
 }

@@ -5,6 +5,10 @@
     align-items: stretch;
     width: 100%;
     margin-bottom: 3rem;
+
+    border-left: #407240 2px solid;
+    border-right: #407240 2px solid;
+    box-sizing: border-box;
 }
 .panels.mobile {
     flex-direction: column;
@@ -18,6 +22,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    border-left: #407240 2px solid;
+    border-right: #407240 2px solid;
+    border-bottom: #407240 4px solid;
+    box-sizing: border-box;
 }
 .panel-left.mobile, .panel-center.mobile, .panel-right.mobile {
     display: flex;
@@ -28,13 +37,13 @@
     height: 75vh;
 }
 .panel-left {
-    background-color: #99ff99;
+    background-color: rgba(0, 0, 0, 0.66);
 }
 .panel-center {
-    background-color: #ffddff;
+    background-color: rgba(0, 0, 0, 0.66);
 }
 .panel-right {
-    background-color: #d9d9d9;
+    background-color: rgba(0, 0, 0, 0.66);
 }
 .panels h1, .panels h2, .panels h3, .panels p {
     margin: 0;
