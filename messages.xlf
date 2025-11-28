@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="ko" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1252179584883003486" datatype="html">
+        <source>메시지</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_message</note>
+      </trans-unit>
+      <trans-unit id="5161031110205224497" datatype="html">
+        <source>라인</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_message_line</note>
+      </trans-unit>
+      <trans-unit id="5997259440330544914" datatype="html">
+        <source>디스코드</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_message_discord</note>
+      </trans-unit>
+      <trans-unit id="3304377342191116831" datatype="html">
+        <source>왓츠앱</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_message_whatsapp</note>
+      </trans-unit>
+      <trans-unit id="1826785609164177550" datatype="html">
+        <source>현재 이용 불가</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+        <note priority="1" from="description">social_unavailable</note>
+      </trans-unit>
+      <trans-unit id="7289751717822878654" datatype="html">
+        <source>주의: 알파벳 o가 아닌 숫자 0입니다.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">27,29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_warning</note>
+      </trans-unit>
+      <trans-unit id="6396624225850208287" datatype="html">
+        <source>소셜</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_social</note>
+      </trans-unit>
+      <trans-unit id="4771258491943881810" datatype="html">
+        <source>인스타그램</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_social_instagram</note>
+      </trans-unit>
+      <trans-unit id="7440584270141606642" datatype="html">
+        <source>스레드</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_social_threads</note>
+      </trans-unit>
+      <trans-unit id="2779742682367984308" datatype="html">
+        <source>레딧</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_social_reddit</note>
+      </trans-unit>
+      <trans-unit id="6484305325078512421" datatype="html">
+        <source>엑스</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_social_x</note>
+      </trans-unit>
+      <trans-unit id="7458866261395180594" datatype="html">
+        <source>개발자</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_developer</note>
+      </trans-unit>
+      <trans-unit id="7655392571567039243" datatype="html">
+        <source>깃허브</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_developer_github</note>
+      </trans-unit>
+      <trans-unit id="3258524248817097696" datatype="html">
+        <source>창작자</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_creator</note>
+      </trans-unit>
+      <trans-unit id="6260549045774098886" datatype="html">
+        <source>유튜브</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_creator_youtube</note>
+      </trans-unit>
+      <trans-unit id="2978258755794971453" datatype="html">
+        <source>네이버 블로그</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">social_rob0face_creator_naver_blog</note>
+      </trans-unit>
+      <trans-unit id="6772362699346581333" datatype="html">
+        <source>이메일</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+        <note priority="1" from="description">social_gdleetoday_email</note>
+      </trans-unit>
+      <trans-unit id="5880897336167965653" datatype="html">
+        <source>웹</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <note priority="1" from="description">social_gdleetoday_web</note>
+      </trans-unit>
+      <trans-unit id="3943655772713223530" datatype="html">
+        <source>개인 웹사이트</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+        <note priority="1" from="description">social_gdleetoday_web_personal_website</note>
+      </trans-unit>
+      <trans-unit id="5166675103216827559" datatype="html">
+        <source>블루스카이</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <note priority="1" from="description">social_gdleetoday_social_bluesky</note>
+      </trans-unit>
+      <trans-unit id="6575149172355826299" datatype="html">
+        <source> 모든 소셜 계정을 나열했지만, 사실 거의 대부분을 사용하고 있지 않습니다. 주로 사용하는 것은 업무상 사용하는 이메일과 깃허브, 그리고 개인 웹사이트, 인스타그램, 레딧 정도입니다. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page/social/social.html</context>
+          <context context-type="linenumber">65,67</context>
+        </context-group>
+        <note priority="1" from="description">social_additional_info</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
