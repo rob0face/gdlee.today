@@ -1,4 +1,7 @@
+/* Angular */
 import { Component } from '@angular/core';
+/* Service */
+import { Screen } from '../../app.screen';
 
 @Component({
   selector: 'app-social',
@@ -7,5 +10,7 @@ import { Component } from '@angular/core';
   styleUrl: './social.css',
 })
 export class Social {
-
+  constructor(
+    /* Service */ public screen: Screen
+  ) {}
 }

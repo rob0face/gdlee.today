@@ -1,0 +1,43 @@
+.wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0 auto;
+}
+
+.card {
+    border: 4px solid #407240;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.66);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 25px;
+    width: 90vw;
+    margin: 20px auto 0 auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+.card.mobile {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    height: auto;
+}
+
+h1, h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

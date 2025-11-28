@@ -102,7 +102,7 @@ body {
 }
 .paragraph-box.fit-content {
   width: fit-content;
-  padding: 20px 60px;
+  padding: 20px 20px;
   margin: 0 auto;
 }
 .paragraph-box.purple {
@@ -116,4 +116,11 @@ body {
 }
 .paragraph-box.green h1, .paragraph-box.green h2, .paragraph-box.green h3 {
   color: #99ff99;
+}
+
+/*
+ *  GENERIC SPACER
+ */
+.spacer {
+    height: 2rem;
 }
