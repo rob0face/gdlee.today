@@ -1,28 +1,24 @@
 <div class="sticky-board" [class.mobile]="screen.currentScreenSize() === 'xs'">
-    <div class="sticky-note">
-        <h2 class="script-kr">2025-07-01</h2>
-        <p class="script-kr">
-            저 취직했어요!
-        </p>
-    </div>
-    <div class="sticky-note">
-        <h2 class="script-kr">2025-11-28</h2>
-        <p class="script-kr">
-            gdlee.today 웹사이트 미리 오픈!<br />
-            아직 허접해서 정식 오픈은 아니에요.
-        </p>
-    </div>
-    <div class="sticky-note">
-        <h2 class="script-kr">2025-12-19</h2>
-        <p class="script-kr">
-            부터 자취 시작!
-        </p>
-    </div>
-    <div class="sticky-note">
-        <h2 class="script-kr">2026-01-22</h2>
-        <p class="script-kr">
-            3박 4일 고등학교 친구들과<br />
-            오사카 여행 가기로 했어요!
-        </p>
-    </div>
+    @for (note of notes; track $index) {
+        <div class="sticky-note">
+            <h2 class="script-kr">{{ note.heading_ko }}</h2>
+            @for (line of note.content_ko.split('+'); track $index) {
+                <p class="script-kr">{{ line }}</p>
+            }
+        </div>
+    }
 </div>
+<!--
+Translated life-notes will be visible when the other pages are translated too.
+
+<div class="sticky-board" [class.mobile]="screen.currentScreenSize() === 'xs'">
+    @for (note of notes; track $index) {
+        <div class="sticky-note">
+            <h2 class="script-en">{{ note.heading_en }}</h2>
+            @for (line of note.content_en.split('+'); track $index) {
+                <p class="script-en">{{ line }}</p>
+            }
+        </div>
+    }
+</div>
+-->

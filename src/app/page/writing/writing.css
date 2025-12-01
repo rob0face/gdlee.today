@@ -1,0 +1,54 @@
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px 10px 0 10px;
+    gap: 20px;
+    width: 800px;
+    margin: 0 auto;
+
+    border: 2px solid #99ff99;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.66);
+}
+.page.mobile {
+    flex-direction: column;
+    width: 90vw;
+    padding: 5px 10px 10px 10px;
+    gap: 0;
+}
+.page .title {
+    font: 300 2rem "Dongle", sans-serif;
+    color: #99ff99;
+    margin: 10px 0;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+    text-decoration-style: dotted;
+}
+.page.mobile .title {
+    margin: 0;
+}
+.page .description {
+    font: 300 0.85rem "IBM Plex Sans KR", sans-serif;
+    color: #ffffff;
+    margin: 0 0 5px 0;
+}
+.page.mobile .description {
+    margin: 0;
+}
+.page .icon {
+    font-size: 1.25rem;
+    color: #99ff99;
+    margin: 0;
+}

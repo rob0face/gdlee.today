@@ -82,6 +82,9 @@ a:hover {
 /*
  *  BACKGROUND
  */
+html {
+  background-color: #000000;
+}
 body {
   background: url("/background_rob0facePatternGreen.jpg") repeat center center;
   background-attachment: fixed;
@@ -105,14 +108,23 @@ body {
   padding: 20px 20px;
   margin: 0 auto;
 }
+.paragraph-box.rounded {
+  border-radius: 10px;
+}
 .paragraph-box.purple {
   border-top: #724072 8px double;
+}
+.paragraph-box.purple.bottom {
+  border-bottom: #724072 8px double;
 }
 .paragraph-box.purple h1, .paragraph-box.purple h2, .paragraph-box.purple h3 {
   color: #ff99ff;
 }
 .paragraph-box.green {
   border-top: #407240 8px double;
+}
+.paragraph-box.green.bottom {
+  border-bottom: #407240 8px double;
 }
 .paragraph-box.green h1, .paragraph-box.green h2, .paragraph-box.green h3 {
   color: #99ff99;
