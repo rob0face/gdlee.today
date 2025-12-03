@@ -16,6 +16,9 @@ header .title {
     font: 700 2rem "Dongle", sans-serif;
     color: white;
 }
+header .title.mobile {
+    font-size: 1.5rem;
+}
 header .title:hover {
     text-decoration: underline;
     text-underline-offset: 8px;

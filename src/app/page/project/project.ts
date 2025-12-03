@@ -5,39 +5,39 @@ import { RouterLink } from '@angular/router';
 import { Screen } from '../../app.screen';
 
 @Component({
-  selector: 'app-writing',
+  selector: 'app-project',
   imports: [
     /* Angular */ RouterLink
   ],
-  templateUrl: './writing.html',
-  styleUrl: './writing.css',
+  templateUrl: './project.html',
+  styleUrl: './project.css',
 })
-export class Writing {
+export class Project {
   constructor(
     /* Service */ public screen: Screen,
   ) {}
 
-  public writings = [
+  public projects = [
     {
       // Added on 2025-12-01
-      title: 'Demopost',
-      title_ko: '데모포스트',
+      title: 'gdlee.today',
+      title_ko: 'gdlee 투데이',
       date: new Date("2025-12-01"),
-      description: 'This is a demo post.',
-      description_ko: '데모 포스팅이에요.',
-      link: '/writing/demopost',
-      icon: 'auto_stories'
+      description: 'About making this website.',
+      description_ko: '이 웹사이트에 대한 것들.',
+      link: '/project/today',
+      icon: 'language'
     },
     {
-      // Added on 2025-12-01
-      title: 'Trivia about me',
-      title_ko: 'gdlee/여담',
-      date: new Date("2025-12-03"),
-      description: 'You might not want to know these.',
-      description_ko: '알고 싶지 않을 수도 있어요.',
-      link: '/writing/trivia',
-      icon: 'co_present'
-    }
+      // Added on 2025-12-03
+      title: 'Aurora Airlinez',
+      title_ko: '오로라 항공사',
+      date: new Date("2025-10-20"),
+      description: 'About making a fake airline website.',
+      description_ko: '가짜 항공사 홈페이지를 만들어본 결과.',
+      link: '/project/aaz',
+      icon: 'flight_takeoff'
+    },
   ].sort((a, b) => b.date.getTime() - a.date.getTime());
 
   getDaysAgo(date: Date): string {

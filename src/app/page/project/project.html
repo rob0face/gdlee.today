@@ -1,0 +1,15 @@
+<div class="cover">
+    <p class="body-kr">프로젝트가 {{ projects.length }} 개 있어요.</p>
+</div>
+<div class="book">
+    @for (project of projects; track $index) {
+        <div class="page" [class.mobile]="screen.currentScreenSize() === 'xs' || screen.currentScreenSize() === 'sm'">
+            <a class="title" [routerLink]="[project.link]">
+                <p class="material-symbols-outlined icon">{{ project.icon }}</p>
+                {{ project.title_ko }}
+            </a>
+            <p class="description">{{ project.description_ko }}</p>
+            <p class="description">{{ getDaysAgo(project.date) }}</p>
+        </div>
+    }
+</div>

@@ -1,20 +1,21 @@
 <header>
-  <div class="title">gdlee 투데이</div>
+  <div class="title" [class.mobile]="screen.currentScreenSize() == 'xs'">gdlee 투데이</div>
   @if (screen.currentScreenSize() != "xs") {
     <div class="navbar">
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">[홈]</a>
-      <a routerLink="/contact" routerLinkActive="active">[정보]</a>
+      <a routerLink="/about" routerLinkActive="active">[정보]</a>
       <a routerLink="/life" routerLinkActive="active">[근황]</a>
       <a routerLink="/design" routerLinkActive="active">[디자인]</a>
       <a routerLink="/writing" routerLinkActive="active">[글 모음]</a>
+      <a routerLink="/project" routerLinkActive="active">[프로젝트]</a>
     </div>
   } @else {
     <div class="navbar-icons">
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
         <span class="material-symbols-outlined">home</span>
       </a>
-      <a routerLink="/contact" routerLinkActive="active">
-        <span class="material-symbols-outlined">contact_mail</span>
+      <a routerLink="/about" routerLinkActive="active">
+        <span class="material-symbols-outlined">account_box</span>
       </a>
       <a routerLink="/life" routerLinkActive="active">
         <span class="material-symbols-outlined">event_note</span>
@@ -24,6 +25,9 @@
       </a>
       <a routerLink="/writing" routerLinkActive="active">
         <span class="material-symbols-outlined">menu_book</span>
+      </a>
+      <a routerLink="/project" routerLinkActive="active">
+        <span class="material-symbols-outlined">folder</span>
       </a>
     </div>
   }
