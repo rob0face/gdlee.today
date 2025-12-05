@@ -25,6 +25,7 @@ export class Writing {
       date: new Date("2025-12-01"),
       description: 'This is a demo post.',
       description_ko: '데모 포스팅이에요.',
+      labels: ['[●_○]'],
       link: '/writing/demopost',
       icon: 'auto_stories'
     },
@@ -35,6 +36,7 @@ export class Writing {
       date: new Date("2025-12-03"),
       description: 'You might not want to know these.',
       description_ko: '알고 싶지 않을 수도 있어요.',
+      labels: ["TMI"],
       link: '/writing/trivia',
       icon: 'co_present'
     }

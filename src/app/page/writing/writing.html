@@ -4,12 +4,19 @@
 <div class="book">
     @for (writing of writings; track $index) {
         <div class="page" [class.mobile]="screen.currentScreenSize() === 'xs' || screen.currentScreenSize() === 'sm'">
-            <a class="title" [routerLink]="[writing.link]">
-                <p class="material-symbols-outlined icon">{{ writing.icon }}</p>
-                {{ writing.title_ko }}
-            </a>
-            <p class="description">{{ writing.description_ko }}</p>
-            <p class="description">{{ getDaysAgo(writing.date) }}</p>
+            <div class="texts">
+                <a class="title" [routerLink]="[writing.link]">
+                    <p class="material-symbols-outlined icon">{{ writing.icon }}</p>
+                    {{ writing.title_ko }}
+                </a>
+                <p class="description">{{ writing.description_ko }}</p>
+                <p class="description">{{ getDaysAgo(writing.date) }}</p>
+            </div>
+            <div class="labels">
+                @for (label of writing.labels; track $index) {
+                    <span class="label">{{ label }}</span>
+                }
+            </div>
         </div>
     }
 </div>

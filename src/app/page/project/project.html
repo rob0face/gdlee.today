@@ -4,12 +4,19 @@
 <div class="book">
     @for (project of projects; track $index) {
         <div class="page" [class.mobile]="screen.currentScreenSize() === 'xs' || screen.currentScreenSize() === 'sm'">
-            <a class="title" [routerLink]="[project.link]">
-                <p class="material-symbols-outlined icon">{{ project.icon }}</p>
-                {{ project.title_ko }}
-            </a>
-            <p class="description">{{ project.description_ko }}</p>
-            <p class="description">{{ getDaysAgo(project.date) }}</p>
+            <div class="texts">
+                <a class="title" [routerLink]="[project.link]">
+                    <p class="material-symbols-outlined icon">{{ project.icon }}</p>
+                    {{ project.title_ko }}
+                </a>
+                <p class="description">{{ project.description_ko }}</p>
+                <p class="description">{{ getDaysAgo(project.date) }}</p>
+            </div>
+            <div class="labels">
+                @for (label of project.labels; track $index) {
+                    <span class="label">{{ label }}</span>
+                }
+            </div>
         </div>
     }
 </div>

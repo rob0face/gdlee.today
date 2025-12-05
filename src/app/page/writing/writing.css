@@ -8,16 +8,14 @@
 
 .page {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
     box-sizing: border-box;
-    padding: 5px 10px 0 10px;
-    gap: 20px;
+    gap: 0;
     width: 800px;
     margin: 0 auto;
-
     border: 2px solid #99ff99;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.66);
@@ -27,6 +25,24 @@
     width: 90vw;
     padding: 5px 10px 10px 10px;
     gap: 0;
+}
+.page .texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px 10px 0 10px;
+    gap: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+.page.mobile .texts {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    gap: 0px;
 }
 .page .title {
     font: 300 2rem "Dongle", sans-serif;
@@ -51,4 +67,23 @@
     font-size: 1.25rem;
     color: #99ff99;
     margin: 0;
+}
+.page .labels {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+.page.mobile .labels {
+    margin-top: 5px;
+    margin-bottom: 0;
+    justify-content: center;
+}    
+.page .label {
+    display: inline-block;
+    background-color: #99ff99;
+    color: #000000;
+    border-radius: 5px;
+    padding: 2px 6px;
+    font: 500 0.75rem "Lexend", sans-serif;
 }

@@ -25,6 +25,7 @@ export class Project {
       date: new Date("2025-12-01"),
       description: 'About making this website.',
       description_ko: '이 웹사이트에 대한 것들.',
+      labels: ['Angular', 'TypeScript', 'Web'],
       link: '/project/today',
       icon: 'language'
     },
@@ -35,6 +36,7 @@ export class Project {
       date: new Date("2025-10-20"),
       description: 'About making a fake airline website.',
       description_ko: '가짜 항공사 홈페이지를 만들어본 결과.',
+      labels: ['Angular', 'TypeScript', 'Firebase', 'Web'],
       link: '/project/aaz',
       icon: 'flight_takeoff'
     },
