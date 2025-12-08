@@ -7,6 +7,7 @@ import { Contact as About } from './page/contact/contact'; // Too lazy to change
 import { Notfound } from './page/notfound/notfound';
 import { Social } from './page/social/social';
 import { Life } from './page/life/life';
+import { Chitchat } from './page/chitchat/chitchat';
 import { Design } from './page/design/design';
 import { Writing } from './page/writing/writing';
 import { Project } from './page/project/project';
@@ -23,6 +24,7 @@ export const routes: Routes = [
     { path: 'about', component: About, title: 'About [●_○]' },
     { path: 'social', component: Social, title: 'Social [●_○]' },
     { path: 'life', component: Life, title: 'Life [●_○]' },
+    { path: 'chitchat', component: Chitchat, title: 'Chit Chat [●_○]' },
     { path: 'design', component: Design, title: 'Design [●_○]' },
     { path: 'writing/demopost', component: Demopost, title: 'Demo [●_○]' },
     { path: 'writing/trivia', component: Trivia, title: 'Trivia [●_○]' },

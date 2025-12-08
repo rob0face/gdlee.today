@@ -1,6 +1,6 @@
 <div class="sticky-board" [class.mobile]="screen.currentScreenSize() === 'xs'">
     @for (note of notes; track $index) {
-        <div class="sticky-note" (dblclick)="onNoteClick($index)">
+        <div class="sticky-note">
             <h2 class="script-kr">{{ note.heading_ko }}</h2>
             @for (line of note.content_ko.split('+'); track $index) {
                 <p class="script-kr">{{ line }}</p>
@@ -8,9 +8,6 @@
         </div>
     }
 </div>
-<!--
-Translated life-notes will be visible when the other pages are translated too.
-
 <div class="sticky-board" [class.mobile]="screen.currentScreenSize() === 'xs'">
     @for (note of notes; track $index) {
         <div class="sticky-note">
@@ -21,4 +18,3 @@ Translated life-notes will be visible when the other pages are translated too.
         </div>
     }
 </div>
--->

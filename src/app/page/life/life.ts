@@ -1,5 +1,6 @@
 /* Angular */
 import { Component, AfterViewInit, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
 /* Service */
 import { Screen } from '../../app.screen';
 
@@ -11,7 +12,7 @@ import { Screen } from '../../app.screen';
 })
 export class Life implements AfterViewInit {
   constructor(
-    /* Angular */ private el: ElementRef,
+    /* Angular */ private el: ElementRef, private router: Router,
     /* Service */ public screen: Screen,
   ) {}
 
@@ -21,6 +22,13 @@ export class Life implements AfterViewInit {
       const rotation = (Math.random() - 0.5) * 15;
       note.style.transform = `rotate(${rotation}deg)`;
     });
+  }
+
+  onNoteClick(index: number) {
+    const osakaTripNoteIndex = 3;
+    if (index === osakaTripNoteIndex) {
+      this.router.navigate(['/chitchat']);
+    }
   }
 
   notes = [
