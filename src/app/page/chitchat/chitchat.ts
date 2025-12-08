@@ -25,6 +25,12 @@ export class Chitchat implements AfterViewInit {
 
   notes = [
     {
+      heading_ko: "2025-12-07",
+      content_ko: "놓친 기회는 돌아보지 말자+너는 옳은 방향으로 가고 있으니까+지금부터 후회 없이, 앞으로 나아가자",
+      heading_en: "December 7th, 2025",
+      content_en: "Never look back at missed oppertunities+You're on the right track+No regrets from now, just move on",
+    },
+    {
       heading_ko: "2025-12-08",
       content_ko: "사실 일하는 거 노잼 ㅋㅋ+5달 동안 재밌다고 했는데+이제 뉴비 보호 기간 끝난 듯",
       heading_en: "December 8th, 2025",
