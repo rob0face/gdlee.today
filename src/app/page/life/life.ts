@@ -51,6 +51,12 @@ export class Life implements AfterViewInit {
       content_en: "Starting living alone from this date!",
     },
     {
+      heading_ko: "2026-01-01",
+      content_ko: "2025년을 살아남으신 여러분, 수고하셨습니다.",
+      heading_en: "January 1st, 2026",
+      content_en: "To everyone who survived 2025, well done.",
+    },
+    {
       heading_ko: "2026-01-22",
       content_ko: "3박 4일 고등학교 친구들과+오사카 여행 가기로 했어요!",
       heading_en: "January 22nd, 2026",

@@ -32,9 +32,15 @@ export class Chitchat implements AfterViewInit {
     },
     {
       heading_ko: "2025-12-08",
-      content_ko: "사실 일하는 거 노잼 ㅋㅋ+5달 동안 재밌다고 했는데+이제 뉴비 보호 기간 끝난 듯",
+      content_ko: "사실 일하는 거 노잼 ㅋㅋ+5 달동안 재밌다고 했는데+이제 뉴비 보호 기간 끝난 듯",
       heading_en: "December 8th, 2025",
       content_en: "Work is actually boring lol+For 5 months I thought it was fun+but I guess the newbie buff is over now",
+    },
+    {
+      heading_ko: "2025-12-09",
+      content_ko: "5 달동안 한 것: 매일 한 시간 일찍 출근하기,+회사 적응하기, 해운업과 물류주선업 배우기,+엑셀 API, 타입스크립트와 앵귤러 공부하기,+자취 준비하기, 자취할 돈 모으기+그리고, 번아웃이 왔다.",
+      heading_en: "December 9th, 2025",
+      content_en: "Done in past 5 months:+Coming to work an hour early every day,+Getting used to my company, Learning logistics business,+Studying Excel API, TypeScript and Angular,+Preparing for living alone, Saving money for it+And then, I burnt out.",
     },
     {
       heading_ko: "2026-01-08",
