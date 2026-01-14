@@ -37,16 +37,16 @@ export class Chitchat implements AfterViewInit {
       content_en: "Work is actually boring lol+For 5 months I thought it was fun+but I guess the newbie buff is over now",
     },
     {
-      heading_ko: "2025-12-09",
-      content_ko: "5 달동안 한 것: 매일 한 시간 일찍 출근하기,+회사 적응하기, 해운업과 물류주선업 배우기,+엑셀 API, 타입스크립트와 앵귤러 공부하기,+자취 준비하기, 자취할 돈 모으기+그리고, 번아웃이 왔다.",
-      heading_en: "December 9th, 2025",
-      content_en: "Done in past 5 months:+Coming to work an hour early every day,+Getting used to my company, Learning logistics business,+Studying Excel API, TypeScript and Angular,+Preparing for living alone, Saving money for it+And then, I burnt out.",
+      heading_ko: "2026-01-07",
+      content_ko: "왜 인디 개발자들이 업데이트를 안하는지 깨달았다+겨우 멀쩡히 작동하는 버전을 출시했는데+이미 여기저기 땜질이 가득하기 때문에+다시 열어보기가 싫은 것이었다+지금 내가 그렇다...",
+      heading_en: "January 7th, 2026",
+      content_en: "I realized why indie developers don't update+After releasing a barely working version,+it's full of patches here and there from beginning+so they don't want to look into it again+That's me right now...",
     },
     {
-      heading_ko: "2026-01-08",
-      content_ko: "벌써 24세라고?+아직도 못해본 게 너무 많은데?",
-      heading_en: "January 8th, 2026",
-      content_en: "I'm already 24 years old?+There are still so many things+I haven't done yet?",
+      heading_ko: "2026-01-14",
+      content_ko: "세인트마틴 섬에 가고싶어서+비용을 계산해봤는데,+약 천만 원이었다+내 연봉의 30%를 1 년의 1.4% 기간에 쓰는 건데+그래도 가고싶다",
+      heading_en: "January 14th, 2026",
+      content_en: "I wanted to go to St. Martin+so I calculated the cost,+it was roughly 10 Mn KRW+It means spending 30% of my annual salary for 1.4% of the year+which I still wish to",
     },
   ];
 }

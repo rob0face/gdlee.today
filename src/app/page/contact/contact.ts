@@ -7,7 +7,7 @@ import { Screen } from '../../app.screen';
 @Component({
   selector: 'app-contact',
   imports: [
-    /* Angular */ RouterLink,
+    /* Angular */ // RouterLink,
   ],
   templateUrl: './contact.html',
   styleUrl: './contact.css',
