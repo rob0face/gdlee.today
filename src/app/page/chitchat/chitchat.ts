@@ -48,5 +48,11 @@ export class Chitchat implements AfterViewInit {
       heading_en: "January 14th, 2026",
       content_en: "I wanted to go to St. Martin+so I calculated the cost,+it was roughly 10 Mn KRW+It means spending 30% of my annual salary for 1.4% of the year+which I still wish to",
     },
+    {
+      heading_ko: "2026-01-15",
+      content_ko: "직급(Rank): 사원, 경력: 6개월+직책(Position): DBA: 데이터베이스 관리자+실무: 디지털 전환, 디지털 영업부 총괄+연봉: 3,200 만 원+뭔가 이상한 게 있지만 일단 넘어가자",
+      heading_en: "January 15th, 2026",
+      content_en: "Rank: Junior Staff, Experience: 6 months+Position: DBA: Database Administrator+Duties: Chief of Digital Business Department+Salary: 32 Mn KRW: Around 21.3K USD+Something feels off but don't ask",
+    },
   ];
 }

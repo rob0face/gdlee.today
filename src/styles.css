@@ -75,8 +75,18 @@ a:hover {
   font-weight: 700;
   cursor: pointer;
 }
+
+/*
+ *  VARIOUS TEXT SPAN STYLES
+ */
 .unavailable-green-text {
     color: #203620;
+}
+.javascript {
+    background-color: #f0db4f;
+    color: #323330;
+    padding: 0px 4px;
+    border-radius: 4px;
 }
 
 /*
