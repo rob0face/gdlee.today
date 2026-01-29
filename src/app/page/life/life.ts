@@ -34,9 +34,9 @@ export class Life implements AfterViewInit {
   notes = [
     {
       heading_ko: "2025-07-01",
-      content_ko: "저 취직했어요!",
+      content_ko: "취직했어요.",
       heading_en: "July 1st, 2025",
-      content_en: "I got a job!",
+      content_en: "I got employed.",
     },
     {
       heading_ko: "2025-11-28",
@@ -46,9 +46,9 @@ export class Life implements AfterViewInit {
     },
     {
       heading_ko: "2025-12-19",
-      content_ko: "부터 자취 시작!",
+      content_ko: "자취 시작!",
       heading_en: "December 19th, 2025",
-      content_en: "Starting living alone from this date!",
+      content_en: "Living alone!",
     },
     {
       heading_ko: "2026-01-01",
@@ -60,13 +60,25 @@ export class Life implements AfterViewInit {
       heading_ko: "2026-01-08",
       content_ko: "가장 차가운 데이브의+가장 차가운 생일.",
       heading_en: "January 8th, 2026",
-      content_en: "Coldest birthday+for the coldest Dave.",
+      content_en: "The coldest birthday+for the coldest Dave.",
     },
     {
       heading_ko: "2026-01-19",
-      content_ko: "3박 4일 고등학교 친구들과+오사카 여행 가기로 했어요!",
+      content_ko: "휴가를 내고 일본 오사카로+여행을 갔어요.",
       heading_en: "January 19th, 2026",
-      content_en: "Going a 3-night, 4-day trip to Osaka+with high school friends!",
+      content_en: "Went on a vacation+to Osaka, Japan.",
+    },
+    {
+      heading_ko: "2026-01-29",
+      content_ko: "WinRAR 라이선스를 구매했어요.",
+      heading_en: "January 29th, 2026",
+      content_en: "Purchased a WinRAR license.",
+    },
+    {
+      heading_ko: "2026-01-31",
+      content_ko: "gdlee.today의 영어 사이트를+준비하고 있어요.",
+      heading_en: "January 31st, 2026",
+      content_en: "Preparing the English version of+gdlee.today.",
     },
   ];
 }
