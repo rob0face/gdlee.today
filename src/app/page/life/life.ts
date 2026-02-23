@@ -25,8 +25,8 @@ export class Life implements AfterViewInit {
   }
 
   onNoteClick(index: number) {
-    const chitChatPortal = 5;
-    if (index === chitChatPortal) {
+    const osakaTripNote = 5; // 6th note
+    if (index === osakaTripNote) {
       this.router.navigate(['/chitchat']);
     }
   }

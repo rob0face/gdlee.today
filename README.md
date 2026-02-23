@@ -19,9 +19,9 @@ is a personal website for myself.
 ### December 2025
 - 1st: Finalized the design. Started adding my own contents.
 ### Near Future
-- February 2026: Will add translations for English. (The codebase and this README are already in English, but the website itself is only in Korean for now.)
-- March 2026: Will check and improve accessibility of the website.
-- July 2026: Will launch the website officially.
+- March 2026: Will add translations for English. (The codebase and this README are already in English, but the website itself is only in Korean for now.)
+- May 2026: Will check and improve accessibility of the website.
+- August 22nd, 2026: Will launch the website officially.
 ### Far Future
 - Will add web games and demo web apps that I made.
 - Will add translations for Japanese.

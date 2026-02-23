@@ -1,6 +1,11 @@
+<p class="body-kr">
+    <strong>잠깐!</strong> 여긴 보드의 뒷면이에요!<br>
+    여기에 있는 내용은 비공개인 이유가 있다고요!<br>
+    앞면으로 돌아가시려면 <span class="escape" (click)="router.navigate(['/life'])">여기</span>를 클릭하세요!<br>
+</p>
 <div class="sticky-board" [class.mobile]="screen.currentScreenSize() === 'xs'">
     @for (note of notes; track $index) {
-        <div class="sticky-note">
+        <div class="sticky-note" (dblclick)="onNoteClick($index)">
             <h2 class="script-kr">{{ note.heading_ko }}</h2>
             @for (line of note.content_ko.split('+'); track $index) {
                 <p class="script-kr">{{ line }}</p>
@@ -13,7 +18,7 @@ Translated life-notes will be visible when the other pages are translated too.
 
 <div class="sticky-board" [class.mobile]="screen.currentScreenSize() === 'xs'">
     @for (note of notes; track $index) {
-        <div class="sticky-note">
+        <div class="sticky-note" (dblclick)="onNoteClick($index)">
             <h2 class="script-en">{{ note.heading_en }}</h2>
             @for (line of note.content_en.split('+'); track $index) {
                 <p class="script-en">{{ line }}</p>

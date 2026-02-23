@@ -1,17 +1,18 @@
 /* Angular */
 import { Component, AfterViewInit, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
 /* Service */
 import { Screen } from '../../app.screen';
 
 @Component({
-  selector: 'app-life',
+  selector: 'app-chitchat',
   imports: [],
   templateUrl: './chitchat.html',
   styleUrl: './chitchat.css',
 })
 export class Chitchat implements AfterViewInit {
   constructor(
-    /* Angular */ private el: ElementRef,
+    /* Angular */ private el: ElementRef, public router: Router,
     /* Service */ public screen: Screen,
   ) {}
 
@@ -21,6 +22,15 @@ export class Chitchat implements AfterViewInit {
       const rotation = (Math.random() - 0.5) * 15;
       note.style.transform = `rotate(${rotation}deg)`;
     });
+  }
+
+  onNoteClick(index: number) {
+    const ddlcNote = 5; // 6th note
+    if (index === ddlcNote) {
+      // redirect to ddlc website
+      // just monika
+      window.location.href = 'https://ddlc.moe/';
+    }
   }
 
   notes = [
@@ -53,6 +63,12 @@ export class Chitchat implements AfterViewInit {
       content_ko: "직급(Rank): 사원, 경력: 6개월+직책(Position): DBA: 데이터베이스 관리자+실무: 디지털 전환, 디지털 영업부 총괄+연봉: 3,200 만 원+뭔가 이상한 게 있지만 일단 넘어가자",
       heading_en: "January 15th, 2026",
       content_en: "Rank: Junior Staff, Experience: 6 months+Position: DBA: Database Administrator+Duties: Chief of Digital Business Department+Salary: 32 Mn KRW: Around 21.3K USD+Something feels off but don't ask",
+    },
+    {
+      heading_ko: "2026-02-20",
+      content_ko: "오랜만에 DDLC를 하다가 늦잠을 잤다+결말에 대해서 계속 생각하다가+잠에 들지 못했다보다+숨겨진 모니카 루트가 있다면 어땠을까?+모니카만",
+      heading_en: "February 20th, 2026",
+      content_en: "I played DDLC after a long time and overslept+I kept thinking about the ending+I couldn't fall asleep+What if there was a hidden Monika route?+Just Monika",
     },
   ];
 }

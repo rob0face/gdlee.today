@@ -29,6 +29,7 @@ export class Writing {
       link: '/writing/demopost',
       icon: 'auto_stories'
     },
+    /* hidden for now, will rewrite it later and add it back
     {
       // Added on 2025-12-01
       title: 'Trivia about me',
@@ -40,6 +41,7 @@ export class Writing {
       link: '/writing/trivia',
       icon: 'co_present'
     },
+    */
     {
       // Added on 2026-02-23
       title: 'Writing Hobby',
@@ -50,7 +52,7 @@ export class Writing {
       labels: ["Hobby"],
       link: '/writing/write',
       icon: 'edit'
-    }
+    },
   ].sort((a, b) => b.date.getTime() - a.date.getTime());
 
   getDaysAgo(date: Date): string {

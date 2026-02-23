@@ -38,3 +38,14 @@
     font-size: 1em;
     color: #333333;
 }
+
+/* escape_plan */
+.escape {
+    color: #ff99ff;
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-offset: 4px;
+}
+.escape:hover {
+    color: #99ff99;
+}
