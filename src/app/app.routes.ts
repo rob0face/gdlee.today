@@ -14,6 +14,7 @@ import { Project } from './page/project/project';
 /* Writings */
 import { Demopost } from './page/writings/demopost/demopost';
 import { Trivia } from './page/writings/trivia/trivia';
+import { Write } from './page/writings/write/write';
 /* Projects */
 import { Aaz } from './page/projects/aaz/aaz';
 import { Today } from './page/projects/today/today';
@@ -28,6 +29,7 @@ export const routes: Routes = [
     { path: 'design', component: Design, title: 'Design [●_○]' },
     { path: 'writing/demopost', component: Demopost, title: 'Demo [●_○]' },
     { path: 'writing/trivia', component: Trivia, title: 'Trivia [●_○]' },
+    { path: 'writing/write', component: Write, title: 'Write [●_○]' },
     { path: 'writing', component: Writing, title: 'Writing [●_○]' },
     { path: 'project/today', component: Today, title: 'Today [●_○]' },
     { path: 'project/aaz', component: Aaz, title: 'AAZ [●_○]' },

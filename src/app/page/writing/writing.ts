@@ -39,6 +39,17 @@ export class Writing {
       labels: ["TMI"],
       link: '/writing/trivia',
       icon: 'co_present'
+    },
+    {
+      // Added on 2026-02-23
+      title: 'Writing Hobby',
+      title_ko: '글쓰기 취미',
+      date: new Date("2026-02-23"),
+      description: 'One of my long-lasting helpful hobbies.',
+      description_ko: '제가 오랫동안 유지한 건강한 취미들 중 하나예요.',
+      labels: ["Hobby"],
+      link: '/writing/write',
+      icon: 'edit'
     }
   ].sort((a, b) => b.date.getTime() - a.date.getTime());
 
