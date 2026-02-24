@@ -3,7 +3,7 @@ import { Routes } from '@angular/router';
 /* Page */
 import { Home } from './page/home/home';
 import { License } from './page/license/license';
-import { Contact as About } from './page/contact/contact'; // Too lazy to change component name and path
+import { Contact as About } from './page/contact/contact'; // Too lazy to change component name and file path
 import { Notfound } from './page/notfound/notfound';
 import { Social } from './page/social/social';
 import { Life } from './page/life/life';
@@ -13,7 +13,7 @@ import { Writing } from './page/writing/writing';
 import { Project } from './page/project/project';
 /* Writings */
 import { Demopost } from './page/writings/demopost/demopost';
-import { Trivia } from './page/writings/trivia/trivia';
+import { Trivia as Playlist24 } from './page/writings/trivia/trivia'; // Too lazy to change component name and file path
 import { Write } from './page/writings/write/write';
 /* Projects */
 import { Aaz } from './page/projects/aaz/aaz';
@@ -28,7 +28,7 @@ export const routes: Routes = [
     { path: 'chitchat', component: Chitchat, title: 'Chit Chat [●_○]' },
     { path: 'design', component: Design, title: 'Design [●_○]' },
     { path: 'writing/demopost', component: Demopost, title: 'Demo [●_○]' },
-    { path: 'writing/trivia', component: Trivia, title: 'Trivia [●_○]' },
+    { path: 'writing/playlist-24', component: Playlist24, title: 'Playlist-24 [●_○]' },
     { path: 'writing/write', component: Write, title: 'Write [●_○]' },
     { path: 'writing', component: Writing, title: 'Writing [●_○]' },
     { path: 'project/today', component: Today, title: 'Today [●_○]' },

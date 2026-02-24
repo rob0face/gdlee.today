@@ -19,7 +19,6 @@ export class Project {
 
   public projects = [
     {
-      // Added on 2025-12-01
       title: 'gdlee.today',
       title_ko: 'gdlee 투데이',
       date: new Date("2025-12-01"),
@@ -30,7 +29,6 @@ export class Project {
       icon: 'language'
     },
     {
-      // Added on 2025-12-03
       title: 'Aurora Airlinez',
       title_ko: '오로라 항공사',
       date: new Date("2025-10-20"),

@@ -19,7 +19,6 @@ export class Writing {
 
   public writings = [
     {
-      // Added on 2025-12-01
       title: 'Demopost',
       title_ko: '데모포스트',
       date: new Date("2025-12-01"),
@@ -29,21 +28,17 @@ export class Writing {
       link: '/writing/demopost',
       icon: 'auto_stories'
     },
-    /* hidden for now, will rewrite it later and add it back
     {
-      // Added on 2025-12-01
-      title: 'Trivia about me',
-      title_ko: 'gdlee/여담',
+      title: 'Playlist (24 Most Favorites)',
+      title_ko: '플리 (24 최애 모음)',
       date: new Date("2025-12-03"),
-      description: 'You might not want to know these.',
-      description_ko: '알고 싶지 않을 수도 있어요.',
-      labels: ["TMI"],
-      link: '/writing/trivia',
-      icon: 'co_present'
+      description: 'My 24 most favorite tracks.',
+      description_ko: '최애 24곡이에요.',
+      labels: ["Favorite"],
+      link: '/writing/playlist-24',
+      icon: 'music_note'
     },
-    */
     {
-      // Added on 2026-02-23
       title: 'Writing Hobby',
       title_ko: '글쓰기 취미',
       date: new Date("2026-02-23"),
